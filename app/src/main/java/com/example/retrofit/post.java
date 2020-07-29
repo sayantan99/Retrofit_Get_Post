@@ -7,6 +7,12 @@ public class post {
     private String title;
     private  String body;
 
+    public post(int userId, String title, String body) {
+        this.userId = userId;
+        this.title = title;
+        this.body = body;
+    }
+
     public int getId() {
         return id;
     }
